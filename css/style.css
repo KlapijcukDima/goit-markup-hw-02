@@ -72,6 +72,8 @@ body{
 .mail{
     color: var(--text-color);
 
+    font-style: normal;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;  
@@ -87,6 +89,7 @@ body{
 .tel{
     color: var(--text-color);
 
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;  
@@ -96,6 +99,25 @@ body{
 .tel:hover,
 .tel:focus{
     color: var(--hover-color);
+}
+
+/* style text Portfolio */
+.title-img{
+    color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    letter-spacing: 0.06em;
+}
+
+.text-img{
+    color: var(--text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
 }
 
 .hero{
@@ -246,34 +268,15 @@ body{
 
 }
 
-.mail-footer{
-    color: rgba(255, 255, 255, 0.6);
 
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    
 
-}
-
-.mail-footer:hover,
-.mail-footer:focus{
-    color: var(--hover-color);
-}
-
-.tel-footer{
-    color: rgba(255, 255, 255, 0.6);
-
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-
-}
-.tel-footer:hover,
-.tel-footer:focus{
-    color: var(--hover-color);
-}
 
 .footer{
     background-color: #2F303A;
+
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2676px;
+
 }
